@@ -179,7 +179,7 @@ public final class SimpleExoPlayerView extends FrameLayout {
   private final View surfaceView;
   private final ImageView artworkView;
   private final SubtitleView subtitleView;
-  private final PlaybackControlView controller;
+  public PlaybackControlView controller;
   private final ComponentListener componentListener;
   private final FrameLayout overlayFrameLayout;
 
