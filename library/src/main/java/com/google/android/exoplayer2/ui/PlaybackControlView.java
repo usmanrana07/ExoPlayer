@@ -195,15 +195,15 @@ public class PlaybackControlView extends FrameLayout {
   private static final long MAX_POSITION_FOR_SEEK_TO_PREVIOUS = 3000;
 
   private final ComponentListener componentListener;
-  private final View previousButton;
-  private final View nextButton;
-  private final View playButton;
-  private final View pauseButton;
-  private final View fastForwardButton;
-  private final View rewindButton;
-  private final TextView durationView;
-  private final TextView positionView;
-  private final SeekBar progressBar;
+  public View previousButton;
+  public View nextButton;
+  public View playButton;
+  public View pauseButton;
+  public View fastForwardButton;
+  public View rewindButton;
+  public TextView durationView;
+  public TextView positionView;
+  public SeekBar progressBar;
   private final StringBuilder formatBuilder;
   private final Formatter formatter;
   private final Timeline.Window currentWindow;
